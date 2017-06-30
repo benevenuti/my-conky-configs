@@ -1,13 +1,16 @@
 # my-conky-configs
-Minhas configurações do conky
+My conky config file at work.
 
-# Original Project / Inspiration
+## Original Project / Inspiration
 https://github.com/leonpf/conkyHome
 
-# Pre reqs
-## Ubuntu / Mint
-## Install conky, jq and lm-sensors
-sudo apt install conky-all jq lm-sensors -y
+Thanx @leonpf
+
+## Pre reqs
+### On Ubuntu / Mint
+Install conky, jq and lm-sensors
+`sudo apt install conky-all jq lm-sensors -y`
 ## Config lm-sensors
-sudo sensors-detect 
+`sudo sensors-detect`
+
 answer YES to every question
